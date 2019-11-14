@@ -21,7 +21,7 @@ spring:
 eureka:
   client:
      service-url:
-	    defaultZone: http://admin:1234@eureka8001:8001/eureka/,http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
+       defaultZone: http://admin:1234@eureka8001:8001/eureka/,http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
   instance:
      instance-id: server-provider-user7001
      prefer-ip-address: true
@@ -47,13 +47,13 @@ spring:
   datasource:
      type: com.alibaba.druid.pool.DruidDataSource
      driver-class-name: com.mysql.jdbc.Driver
-     url: jdbc:mysql://localhost:3306/clouduser2?useUnicode=true&characterEncoding=UTF-8
+     url: jdbc:mysql://localhost:3306/clouduser3?useUnicode=true&characterEncoding=UTF-8
      username: root
      password: root
 eureka:
   client:
      service-url:
-	    defaultZone: http://admin:1234@eureka8001:8001/eureka/,http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
+       defaultZone: http://admin:1234@eureka8001:8001/eureka/,http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
   instance:
      instance-id: server-provider-user7002
      prefer-ip-address: true

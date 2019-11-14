@@ -13,8 +13,8 @@ eureka:
  client:
     register-with-eureka: false
     fetch-registry: false
-	service-url:
-	  defaultZone: http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
+    service-url:
+      defaultZone: http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
 security:
  user:
    name: admin
@@ -31,8 +31,8 @@ eureka:
  client:
     register-with-eureka: false
     fetch-registry: false
-	service-url:
-	  defaultZone: http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
+    service-url:
+      defaultZone: http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
 security:
  user:
    name: admin
