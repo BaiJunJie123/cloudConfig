@@ -1,7 +1,7 @@
  spring:
    prfiles:
      active: -dev
- ---
+---
  server:
    port: 7001
    profiles: dev
@@ -33,7 +33,7 @@
    build:
      artifactId: $project.artifactId$
      version: $project.version$
- ---
+---
  server:
    port: 7002
    profiles: test

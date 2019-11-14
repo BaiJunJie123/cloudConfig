@@ -1,7 +1,7 @@
  spring:
    prfiles:
      active: -dev
- ---
+---
  server:
   port: 8001
   profiles: dev
@@ -19,7 +19,7 @@
   user:
     name: admin
     password: 1234
- ---
+---
  server:
   port: 8004
   profiles: test
