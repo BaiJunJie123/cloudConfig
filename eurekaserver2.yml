@@ -4,6 +4,7 @@
 ---
  server:
   port: 8002
+ spring:
   profiles: dev
   application:
      name: eurekaserver2
@@ -22,6 +23,7 @@
 ---
  server:
   port: 8005
+ spring:
   profiles: test
   application:
      name: eurekaserver2

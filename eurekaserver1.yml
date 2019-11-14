@@ -4,8 +4,9 @@
 ---
  server:
   port: 8001
-  profiles: dev
-  application:
+ spring:
+   profiles: dev
+   application:
      name: eurekaserver1
  eureka:
   instance:
@@ -22,8 +23,9 @@
 ---
  server:
   port: 8004
-  profiles: test
-  application:
+ spring:
+   profiles: test
+   application:
      name: eurekaserver1
  eureka:
   instance:

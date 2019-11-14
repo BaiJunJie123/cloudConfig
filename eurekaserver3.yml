@@ -4,6 +4,7 @@
 ---
  server:
   port: 8003
+ spring:
   profiles: dev
   application:
      name: eurekaserver3
@@ -21,7 +22,8 @@
     password: 1234
 ---
  server:
-  port: 8003
+  port: 8006
+ spring:
   profiles: test
   application:
      name: eurekaserver3
