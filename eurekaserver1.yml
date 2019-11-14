@@ -1,0 +1,39 @@
+spring:
+  prfiles:
+    active: -dev
+---
+server:
+ port: 8001
+ profiles: dev
+ application:
+    name: eurekaserver1
+eureka:
+ instance:
+    hostname: eureka8001
+ client:
+    register-with-eureka: false
+    fetch-registry: false
+	service-url:
+	  defaultZone: http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
+security:
+ user:
+   name: admin
+   password: 1234
+---
+server:
+ port: 8001
+ profiles: test
+ application:
+    name: eurekaserver1
+eureka:
+ instance:
+    hostname: eureka8001
+ client:
+    register-with-eureka: false
+    fetch-registry: false
+	service-url:
+	  defaultZone: http://admin:1234@eureka8002:8002/eureka/,http://admin:1234@eureka8003:8003/eureka/
+security:
+ user:
+   name: admin
+   password: 1234
